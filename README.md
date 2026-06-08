@@ -1,53 +1,35 @@
-# decodelabs-Data_Analytics_project-
-# Data Analytics Project
+# Task 1: Data Cleaning
 
-**Data Analysis using Python,SQL, and Powerbi**
+## Overview
 
----
-
-## 📋 Project Overview
-
-This project focuses on performing complete data analysis on the **"Dataset for Data Analytics.xlsx"** file. The workflow includes data loading, cleaning, exploratory data analysis (EDA), and visualization to extract meaningful insights.
+This task focuses on cleaning and preparing the raw dataset (`Dataset for Data Analytics.xlsx`) for further analysis.
 
 ---
 
-## 🎯 Objectives
+## Data Cleaning Process
 
-- Load and understand the raw dataset
-- Clean and preprocess the data
-- Perform Exploratory Data Analysis (EDA)
-- Create insightful visualizations
-- Draw conclusions and key findings
+The following steps were performed to ensure data quality:
 
----
-
-## 📂 Dataset
-
-- **File Name**: `Dataset for Data Analytics.xlsx`
-- **Format**: Excel (.xlsx)
-- **Description**: Raw dataset used for cleaning, analysis, and visualization
+- **Missing Values**: Checked using `isnull().sum()`. Missing values were found only in the Coupon column and were properly handled by creating a new boolean column `is_coupon` (True/False).
+- **Duplicate Records**: Checked using `duplicated().sum()`. No duplicates were found in the dataset.
+- **Outlier Detection**: Performed statistical analysis and visual inspection (boxplots) on key numerical columns (Quantity, Price, Total Price). **No significant outliers** were detected.
+- **Verification**: Manually recalculated and validated the `Total Price` column — it was found to be **100% accurate**.
+- **Column Management**: Removed noisy and irrelevant columns that do not contribute to the analysis.
+- **Feature Engineering**:
+  - Created `is_coupon` column (True/False)
+  - Extracted `Year` and `Month` from the date column
+- **Data Types**: Reviewed and confirmed appropriate data types for all columns.
 
 ---
 
-## 🛠️ Technologies Used
+## Summary
 
-- **Python**
-- **Pandas** – Data manipulation & cleaning
-- **NumPy** – Numerical operations
-- **Matplotlib & Seaborn** – Data visualization
-- **Jupyter Notebook** – Main analysis environment
-- **Openpyxl** – Excel file handling
+After thorough cleaning and validation, the dataset is now **clean, consistent, and ready** for exploratory data analysis and visualization.
+
+No major data quality issues were present in the original dataset.
 
 ---
 
-## 📊 Project Workflow
+**Prepared for:** Task 1 - Data Cleaning  
+**Date:** June 2026
 
-1. **Data Loading**
-2. **Data Cleaning** (missing values, duplicates, data types, etc.)
-3. **Exploratory Data Analysis**
-4. **Data Visualization**
-5. **Insights & Conclusions**
-
----
-
-## 📁 Project Structure
