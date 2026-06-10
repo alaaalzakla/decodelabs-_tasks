@@ -1,57 +1,40 @@
-# Data Analytics Project
+# Task 2: Data Analysis using Python
 
-**End-to-End Data Analysis of Sales Dataset**
-
-This project demonstrates a complete data analytics workflow — from data cleaning to interactive visualization.
-
----
-
-## 🗂️ Project Tasks
-
-### 1. **[Data Cleaning using Python](https://github.com/alaaalzakla/decodelabs-_tasks/tree/Task-1-(cleaning))**
-- Loaded and explored the raw Excel dataset
-- Handled missing values and verified no duplicates
-- Checked for outliers and validated `Total Price`
-- Removed noisy columns
-- Created new features (`is_coupon`, `Year`, `Month`)
-- Prepared clean dataset for analysis
+## Overview
+This task focuses on performing **Exploratory Data Analysis (EDA)** on the cleaned sales dataset using Python.
 
 ---
 
-### 2. **Data Analysis using Python**
-- Performed Exploratory Data Analysis (EDA)
-- Analyzed sales trends, coupon impact, and customer behavior
-- Generated visualizations using Matplotlib & Seaborn
-- Extracted key business insights
+## 📊 Analysis Performed
 
-**Folder**: `Task 2 - Python Analysis`
-
----
-
-### 3. **In-Depth Analysis using SQL**
-- Wrote advanced SQL queries for deeper insights
-- Analyzed monthly/yearly performance, coupon effectiveness, top products, and more
-- Investigated cancelled orders and cart abandonment
-
-**Folder**: `Task 3 - SQL Analysis`
+- Calculated key metrics (Total Sales, Average Order Quantity, etc.)
+- Analyzed sales trends over time (Monthly & Yearly)
+- Evaluated **Coupon Impact** on sales and quantity
+- Identified **Top Selling Products**
+- Analyzed **Payment Methods** distribution
+- Studied **Customer Loyalty** (Repeat Customers)
+- Explored **Referral Sources** performance
+- Investigated **Cart Abandonment** rate
 
 ---
 
-### 4. **Interactive Dashboard using Power BI**
-- Built a professional interactive dashboard
-- Visualized sales trends, average order quantity, coupon performance, and top metrics
-- Applied proper sorting and user-friendly filters
+## 🛠️ Tools Used
 
-**Folder**: `Task 4 - Power BI Dashboard`
-
----
-
-## 🛠️ Tools & Technologies
-
-- **Python** (Pandas, Matplotlib, Seaborn)
-- **SQL** (SQL Server)
-- **Power BI** (Interactive Dashboard)
+- Python (Jupyter Notebook)
+- Pandas
+- Matplotlib & Seaborn (for visualizations)
 
 ---
 
-## 📁 Repository Structure
+## 📁 Files Included
+
+- `Task 2 - Python Analysis.ipynb` → Main analysis notebook
+- Visualizations folder (charts and plots)
+- Summary of key insights
+
+---
+
+**Status**: Completed ✅
+
+**Prepared by**: Alaa Alzakla  
+**Date**: June 2026
