@@ -1,53 +1,57 @@
-# decodelabs-Data_Analytics_project-
 # Data Analytics Project
 
-**Data Analysis using Python,SQL, and Powerbi**
+**End-to-End Data Analysis of Sales Dataset**
+
+This project demonstrates a complete data analytics workflow — from data cleaning to interactive visualization.
 
 ---
 
-## 📋 Project Overview
+## 🗂️ Project Tasks
 
-This project focuses on performing complete data analysis on the **"Dataset for Data Analytics.xlsx"** file. The workflow includes data loading, cleaning, exploratory data analysis (EDA), and visualization to extract meaningful insights.
-
----
-
-## 🎯 Objectives
-
-- Load and understand the raw dataset
-- Clean and preprocess the data
-- Perform Exploratory Data Analysis (EDA)
-- Create insightful visualizations
-- Draw conclusions and key findings
+### 1. **[Data Cleaning using Python](https://github.com/alaaalzakla/decodelabs-_tasks/tree/Task-1-(cleaning))**
+- Loaded and explored the raw Excel dataset
+- Handled missing values and verified no duplicates
+- Checked for outliers and validated `Total Price`
+- Removed noisy columns
+- Created new features (`is_coupon`, `Year`, `Month`)
+- Prepared clean dataset for analysis
 
 ---
 
-## 📂 Dataset
+### 2. **Data Analysis using Python**
+- Performed Exploratory Data Analysis (EDA)
+- Analyzed sales trends, coupon impact, and customer behavior
+- Generated visualizations using Matplotlib & Seaborn
+- Extracted key business insights
 
-- **File Name**: `Dataset for Data Analytics.xlsx`
-- **Format**: Excel (.xlsx)
-- **Description**: Raw dataset used for cleaning, analysis, and visualization
-
----
-
-## 🛠️ Technologies Used
-
-- **Python**
-- **Pandas** – Data manipulation & cleaning
-- **NumPy** – Numerical operations
-- **Matplotlib & Seaborn** – Data visualization
-- **Jupyter Notebook** – Main analysis environment
-- **Openpyxl** – Excel file handling
+**Folder**: `Task 2 - Python Analysis`
 
 ---
 
-## 📊 Project Workflow
+### 3. **In-Depth Analysis using SQL**
+- Wrote advanced SQL queries for deeper insights
+- Analyzed monthly/yearly performance, coupon effectiveness, top products, and more
+- Investigated cancelled orders and cart abandonment
 
-1. **Data Loading**
-2. **Data Cleaning** (missing values, duplicates, data types, etc.)
-3. **Exploratory Data Analysis**
-4. **Data Visualization**
-5. **Insights & Conclusions**
+**Folder**: `Task 3 - SQL Analysis`
 
 ---
 
-## 📁 Project Structure
+### 4. **Interactive Dashboard using Power BI**
+- Built a professional interactive dashboard
+- Visualized sales trends, average order quantity, coupon performance, and top metrics
+- Applied proper sorting and user-friendly filters
+
+**Folder**: `Task 4 - Power BI Dashboard`
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Python** (Pandas, Matplotlib, Seaborn)
+- **SQL** (SQL Server)
+- **Power BI** (Interactive Dashboard)
+
+---
+
+## 📁 Repository Structure
